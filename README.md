@@ -7,10 +7,12 @@
 3. Divirta-se!
 
 ## Requisitos para Jogar
-- Um navegador moderno (recomendamos Chrome, Firefox, Edge ou Safari atualizados)
-- Conexão com a internet (para carregar o jogo)
+Um navegador moderno (recomendamos Chrome, Firefox, Edge ou Safari atualizados)
+Conexão com a internet (para carregar o jogo)
+
 
 ## Requisitos para Desenvolvimento
+Framework Phaser https://phaser.io/
 
 ### Instalação do Node.js
 1. Acesse [nodejs.org](https://nodejs.org)
@@ -36,14 +38,14 @@
 
 ### Estrutura do Projeto
 Após a instalação, certifique-se de que seu projeto tenha a seguinte estrutura básica:
-```
-Space Miner Shooter/
-├── index.html
-├── src/
-│   └── main.js
-├── package.json        # (se instalou via npm)
-└── node_modules/      # (se instalou via npm)
-```
+   ```
+   Space Miner Shooter/
+   ├── index.html
+   ├── src/
+   │   └── main.js
+   ├── package.json        # (se instalou via npm)
+   └──node_modules/      # (se instalou via npm)
+   ```
 
 ## Desenvolvimento Local
 Para desenvolver localmente, você precisará de um servidor web local. Você pode usar:
