@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Space Miner Shooter</title>
+    <!-- Inclui o Phaser 3 (v3.80.1) via CDN -->
+    <script src="//cdn.jsdelivr.net/npm/phaser@3.80.1/dist/phaser.min.js"></script>
+    <style>
+        body { margin: 0; background-color: black; overflow: hidden; /* Esconde barras de rolagem */ }
+        /* O scale manager do Phaser cuidará do centramento e ajuste */
+    </style>
+</head>
+<body>
+    <!-- O Phaser vai inserir o canvas aqui automaticamente por causa da config -->
+    <div id="game-container"></div>
+    <!-- Carrega o seu jogo como um módulo -->
+    <script type="module" src="src/main.js"></script>
+</body>
+</html>
